@@ -8,7 +8,7 @@ function firstWord(s) {
  
  let spaceIndex = str.indexOf(' ');
  
- is(spaceIndex === -1){
+ if(spaceIndex === -1){
      return str;
  }
  
