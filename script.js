@@ -12,7 +12,7 @@ function firstWord(s) {
      return str;
  }
  
- return str.substring(0, spaceIndex);
+ return str.slice(0, spaceIndex);
  
 }
 
