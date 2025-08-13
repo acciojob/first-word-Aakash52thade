@@ -6,6 +6,6 @@ function firstWord(s) {
  if(s.length === "") return;
 	return s.split(/\s+/)[0];
 }
-fdkjfksdfs
+
 const s = prompt("Enter String:");
 alert(firstWord(s));
