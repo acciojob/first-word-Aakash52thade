@@ -1,20 +1,10 @@
 
 function firstWord(s) {
   // your code here
- 
- str = str.trim();
- 
- if(str === '') return '';
- 
- let spaceIndex = str.indexOf(' ');
- 
- if(spaceIndex === -1){
-     return str;
- }
- 
- return str.slice(0, spaceIndex);
- 
+	
+ let word = s.trim().split("");
+	return word[0];
 }
-
+fdkjfksdfs
 const s = prompt("Enter String:");
 alert(firstWord(s));
